@@ -20,7 +20,7 @@ function preload() {
 
 function setup() {
 
-	createCanvas(1500, 1500);
+	createCanvas(2000, 2000);
 	song.loop();
 	noFill()
 	stroke(255)
