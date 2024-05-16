@@ -38,7 +38,7 @@ function setup() {
 
 	//create input 
 	input = createInput('');
-	input.position(250, 740);
+	input.position(800, 1500);
 
 	//Call repaint() when input is detected.
 	input.input(repaint);
@@ -139,10 +139,6 @@ function genType(txtString, txtSize) {
 	points = font.textToPoints(txtString, -bounds.w / 2, bounds.h / 2, txtSize, {
 		sampleFactor: .07,
 		simplifyThreshold: 0
-
-
-
-
 
 
 	})
