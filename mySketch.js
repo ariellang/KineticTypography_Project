@@ -128,7 +128,7 @@ function draw() {
 
 
 function keyPressed() {
-	genType(input.value(), height / 2)
+	genType(input.value(), width / 3);
 }
 
 function genType(txtString, txtSize) {
