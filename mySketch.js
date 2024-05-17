@@ -127,7 +127,7 @@ function draw() {
 }
 
 
-function keyPressed() {
+function keyReleased() {
 	genType(input.value(), width / 5);
 }
 
