@@ -20,14 +20,14 @@ function preload() {
 
 function setup() {
 
-	createCanvas(2000, 2000);
+	createCanvas(1000, 1000);
 	song.loop();
 	noFill()
 	stroke(255)
 	strokeWeight(5)
 
 
-	genType('design', width / 3);
+	genType('design', width / 5);
 	
 
 	// create a new Amplitude analyzer
@@ -38,7 +38,7 @@ function setup() {
 
 	//create input 
 	input = createInput('');
-	input.position(800, 1500);
+	input.position(width / 8, height / 8);
 
 	//Call repaint() when input is detected.
 	input.input(repaint);
@@ -128,7 +128,7 @@ function draw() {
 
 
 function keyPressed() {
-	genType(input.value(), width / 3);
+	genType(input.value(), width / 5);
 }
 
 function genType(txtString, txtSize) {
